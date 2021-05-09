@@ -8,7 +8,7 @@ quote USER "$2"
 quote PASS "$3"
 EOF
 `
-	good=$(echo $ans | grep ' 230 ')
+	good=$(echo "$ans" | grep ' 230 ')
 	if [ $? == 0 ]
 	then
 		echo -e "\033[91mPassword Found: $3"
