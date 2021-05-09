@@ -5,12 +5,12 @@ Usage:
 
   	./FTPcracker IP USERNAME PASSWORD_LIST NumberOfProceses
 
-  IP: The target's IP address.
-  USERNAME: The target's login username.
-  PASSWORD_LIST: Wordlist file address.
-  NumberOfProcess: Number of process to generate for accelerating brute-force.(Enter 0 for none)
+  # IP: The target's IP address.
+  # USERNAME: The target's login username.
+  # PASSWORD_LIST: Wordlist file address.
+  # NumberOfProcess: Number of process to generate for accelerating brute-force.(Enter 0 for none)
 
-	Example:
+	# Example:
 		FTPcracker 192.168.1.1 admin pass_list.txt 5
 
 It also accelerates the progress by making back-ground independent processes for each password.
